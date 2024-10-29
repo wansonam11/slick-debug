@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debug</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link href="https://in-lp.com/css/slick.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./img/logo.ico">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css" />
+  <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <!-- point -->
+  <section id="point" class="point">
+    <div class="cmn-content__box">
+      <h2 class="cmn-ttl --point">
+        <span class="cmn-ttl__en">SLIDE(1)</span>
+        <span class="cmn-ttl__jp">スライド</span>
+      </h2>
+      <div class="point__box">
+        <div class="point__box-list js-slider-point swiper">
+          <div class="point__box-list-inr swiper-wrapper">
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic01.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">猫も人も楽しいキャットウォーク</h4>
+                  <p class="point__box-list-txt">
+                    キャットウォークを自由に歩き回る。<br />ご家族を上から見て、ゆっくりウィンクをする。<br />そんな猫の姿を見れるのがキャットウォークの魅力。<br />「吹き抜けを作って壁に沿うようにキャットウォークを作る」<br
+                      class="cmn-display__sp-none" />なんてことも実現可能。自由な開放感を保ちつつ、しっかりとした安全性で、猫が健康に楽しく安全に生活できるように相談しながら間取りを決めていきます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic02.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">高さ・空間を確保できる<br class="cmn-display__sp-block" />スキップフロア</h4>
+                  <p class="point__box-list-txt">
+                    スキップフロアは、各フロアの間にもう一つフロアを<br class="cmn-display__sp-none" />作る構造のことで、1、2階の間に1.5階を設けるような<br
+                      class="cmn-display__sp-none" />設計のことを指します。<br />横ではなく縦に伸びる空間を活用するものなので、<br
+                      class="cmn-display__sp-none" />猫の上下運動と相性が良いです。<br />コンパクトな敷地であれば、縦の空間の使い方も大切です。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic03.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">落下防止ネットでハンモックに</h4>
+                  <p class="point__box-list-txt">
+                    開放的な吹き抜けの設置で心配なのが、<br
+                      class="cmn-display__sp-block" />猫の落下です。<br />特に高齢を迎えた猫には注意が必要です。<br />そんな場合は、<br
+                      class="cmn-display__sp-block" />落下防止ネットを張れば一安心です。<br />防止ネットのつもりでいたら、猫がその上でくつろぐなんていう光景も見られるかもしれません。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-controller">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <!-- <div class="point__box-list js-slider-point swiper">
+          <div class="point__box-list-inr swiper-wrapper">
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic01.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">猫も人も楽しいキャットウォーク</h4>
+                  <p class="point__box-list-txt">
+                    キャットウォークを自由に歩き回る。<br />ご家族を上から見て、ゆっくりウィンクをする。<br />そんな猫の姿を見れるのがキャットウォークの魅力。<br />「吹き抜けを作って壁に沿うようにキャットウォークを作る」<br
+                      class="cmn-display__sp-none" />なんてことも実現可能。自由な開放感を保ちつつ、しっかりとした安全性で、猫が健康に楽しく安全に生活できるように相談しながら間取りを決めていきます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic02.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">高さ・空間を確保できる<br class="cmn-display__sp-block" />スキップフロア</h4>
+                  <p class="point__box-list-txt">
+                    スキップフロアは、各フロアの間にもう一つフロアを<br class="cmn-display__sp-none" />作る構造のことで、1、2階の間に1.5階を設けるような<br
+                      class="cmn-display__sp-none" />設計のことを指します。<br />横ではなく縦に伸びる空間を活用するものなので、<br
+                      class="cmn-display__sp-none" />猫の上下運動と相性が良いです。<br />コンパクトな敷地であれば、縦の空間の使い方も大切です。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic03.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">落下防止ネットでハンモックに</h4>
+                  <p class="point__box-list-txt">
+                    開放的な吹き抜けの設置で心配なのが、<br
+                      class="cmn-display__sp-block" />猫の落下です。<br />特に高齢を迎えた猫には注意が必要です。<br />そんな場合は、<br
+                      class="cmn-display__sp-block" />落下防止ネットを張れば一安心です。<br />防止ネットのつもりでいたら、猫がその上でくつろぐなんていう光景も見られるかもしれません。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-controller">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <div class="point__box-list js-slider-point swiper">
+          <div class="point__box-list-inr swiper-wrapper">
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic01.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">猫も人も楽しいキャットウォーク</h4>
+                  <p class="point__box-list-txt">
+                    キャットウォークを自由に歩き回る。<br />ご家族を上から見て、ゆっくりウィンクをする。<br />そんな猫の姿を見れるのがキャットウォークの魅力。<br />「吹き抜けを作って壁に沿うようにキャットウォークを作る」<br
+                      class="cmn-display__sp-none" />なんてことも実現可能。自由な開放感を保ちつつ、しっかりとした安全性で、猫が健康に楽しく安全に生活できるように相談しながら間取りを決めていきます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic02.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">高さ・空間を確保できる<br class="cmn-display__sp-block" />スキップフロア</h4>
+                  <p class="point__box-list-txt">
+                    スキップフロアは、各フロアの間にもう一つフロアを<br class="cmn-display__sp-none" />作る構造のことで、1、2階の間に1.5階を設けるような<br
+                      class="cmn-display__sp-none" />設計のことを指します。<br />横ではなく縦に伸びる空間を活用するものなので、<br
+                      class="cmn-display__sp-none" />猫の上下運動と相性が良いです。<br />コンパクトな敷地であれば、縦の空間の使い方も大切です。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point__box-list-item swiper-slide">
+              <div class="point__box-list-item-inr">
+                <div class="point__box-list-img">
+                  <img src="./img/point_pic03.png" alt="猫も人も楽しいキャットウォーク" />
+                </div>
+                <div class="point__box-list-info">
+                  <h4 class="point__box-list-ttl">落下防止ネットでハンモックに</h4>
+                  <p class="point__box-list-txt">
+                    開放的な吹き抜けの設置で心配なのが、<br
+                      class="cmn-display__sp-block" />猫の落下です。<br />特に高齢を迎えた猫には注意が必要です。<br />そんな場合は、<br
+                      class="cmn-display__sp-block" />落下防止ネットを張れば一安心です。<br />防止ネットのつもりでいたら、猫がその上でくつろぐなんていう光景も見られるかもしれません。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-controller">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div> -->
+      </div>
+  </section>
+  <!-- works -->
+  <section id="works" class="works">
+    <div class="cmn-content__box">
+      <h2 class="cmn-ttl">
+        <span class="cmn-ttl__en">SLIDE(2)</span>
+        <span class="cmn-ttl__jp">スライド</span>
+      </h2>
+      <div class="works__content">
+        <div class="works__slide js-slider-works swiper">
+          <div class="works__slide-list swiper-wrapper">
+            <div class="works__slide-item swiper-slide">
+              <img src="./img/point_pic01.png" alt="施工事例画像" />
+            </div>
+            <div class="works__slide-item swiper-slide">
+              <img src="./img/point_pic02.png" alt="施工事例画像" />
+            </div>
+            <div class="works__slide-item swiper-slide">
+              <img src="./img/point_pic03.png" alt="施工事例画像" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+  <!-- forest -->
+  <section class="section-works">
+    <div class="js-scroll">
+      <h2 class="forest-ttl">
+        <span class="cmn-ttl__en">SLIDE(3)</span>
+        <span class="cmn-ttl__jp">スライド</span>
+      </h2>
+        <div class="section-works__slider-wrap">
+            <div class="section-works__slider">
+                <div class="section-works__slider__item">
+                    <a href="" class="section-works__slider__item__link">
+                        <div class="section-works__slider__item__img">
+                          <img src="./img/point_pic01.png" alt="施工事例画像" />
+                        </div>
+                    </a>
+                </div>
+                <div class="section-works__slider__item">
+                    <a href="" class="section-works__slider__item__link">
+                        <div class="section-works__slider__item__img">
+                          <img src="./img/point_pic02.png" alt="施工事例画像" />
+                        </div>
+                    </a>
+                </div>
+                <div class="section-works__slider__item">
+                    <a href="" class="section-works__slider__item__link">
+                        <div class="section-works__slider__item__img">
+                          <img src="./img/point_pic03.png" alt="施工事例画像" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- totoni -->
+<section class="plan-slide" id="slide">
+  <h2 class="totoni-ttl">
+    <span class="cmn-ttl__en">SLIDE(4)</span>
+    <span class="cmn-ttl__jp">スライド</span>
+  </h2>
+  <div class="plan-slide__slider">
+    <div class="plan-slide__slider--cnt">
+      <img src="./img/point_pic01.png" alt="猫も人も楽しいキャットウォーク" />
+      <!-- <img class="img-pc" src="img/point__img01.jpg" width="588" height="355"> -->
+    </div>
+    <div class="plan-slide__slider--cnt">
+      <img src="./img/point_pic02.png" alt="猫も人も楽しいキャットウォーク" />
+      <!-- <img class="img-pc" src="img/point__img02.jpg" width="588" height="355"> -->
+    </div>
+    <div class="plan-slide__slider--cnt">
+      <img src="./img/point_pic03.png" alt="猫も人も楽しいキャットウォーク" />
+      <!-- <img class="img-pc" src="img/point__img03.jpg" width="588" height="355"> -->
+    </div>
+  </div>
+</section>
+
+
+</body>
+<script>
+  //mv
+  $(document).ready(function () {
+    const mv_swiper = new Swiper(".js-slider-mv.swiper", {
+      loop: true,
+      effect: "fade",
+      speed: 1000,
+      autoplay: {
+        delay: 2000,
+      },
+      fadeEffect: {
+        crossFade: true,
+      },
+    });
+  });
+  //point
+  $(window).on('load', function () {
+    const pointSwiper = new Swiper(".js-slider-point.swiper", {
+      //autoHeight: true,
+      slidesPerView: 1,
+      spaceBetween: 16,
+      grabCursor: true,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".point .swiper-pagination",
+        type: "progressbar",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".point .swiper-button-next",
+        prevEl: ".point .swiper-button-prev",
+      },
+      breakpoints: {
+        1025: {
+          slidesPerView: 1.2,
+          spaceBetween: 80,
+        },
+        641: {
+          slidesPerView: 1.2,
+          spaceBetween: 32,
+        },
+      },
+      on: {
+        init: function () {
+          this.updateAutoHeight(0); // 初期化時に高さを再計算
+        },
+        resize: function () {
+          this.updateAutoHeight(0); // リサイズ時に高さを再計算
+        }
+      }
+    });
+  });
+  //works
+  $(document).ready(function () {
+    const works_Swiper = new Swiper(".js-slider-works.swiper", {
+      loop: true,
+      speed: 1500,
+      slidesPerView: 1,
+      centeredSlides: true,
+      spaceBetween: 16,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".works .swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".works .swiper-button-next",
+        prevEl: ".works .swiper-button-prev",
+      },
+    });
+  });
+</script>
+
+<script>
+
+
+
+
+  /*----- ナビゲーション -----*/
+  $(function () {
+    var $header = $(".header");
+    $(".header__toggle").click(function () {
+      $header.toggleClass("open");
+    });
+    $("header nav a[href]").on("click", function (event) {
+      $(".header__toggle").trigger("click");
+    });
+  });
+
+
+      //works slider 
+      $(function () {
+        let slider = $(".section-works__slider").slick({
+            arrows: true,
+            infinite: true,
+            loop: true,
+            prevArrow: '<div class="slide-arrow prev-arrow"></div>',
+            nextArrow: '<div class="slide-arrow next-arrow"></div>',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: false,
+            speed: 500,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            variableWidth: true,
+            centerMode: true,
+            customPaging: function (slider, i) {
+                let slideNumber = i.toString().padStart(2, "0");
+                return $('<div class="section-works__slider__dots__num">').text(slideNumber);
+            },
+            dotsClass: "section-works__slider__dots",
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: true,
+                        variableWidth: false,
+                        centerPadding: "6%",
+                    },
+                },
+            ],
+        });
+    
+        function setActiveDot(index) {
+            $(".section-works__slider__dots__num").removeClass("slick-active");
+            for (let i = 0; i <= index; i++) {
+                $(".section-works__slider__dots__num").eq(i).addClass("slick-active");
+            }
+        }
+    
+        slider.on("beforeChange", function (event, slick, currentSlide, nextSlide) {
+            if (currentSlide === slick.$slides.length - 1 && nextSlide === 0) {
+                $(".section-works__slider__dots__num").addClass("no-transition").removeClass("slick-active");
+            } else if (currentSlide === 0 && nextSlide === slick.$slides.length - 1) {
+                $(".section-works__slider__dots__num").addClass("no-transition");
+                setActiveDot(nextSlide);
+            } else {
+                setActiveDot(nextSlide);
+            }
+        });
+    
+        slider.on("afterChange", function (event, slick, currentSlide) {
+            if (currentSlide === 0) {
+                setTimeout(function () {
+                    $(".section-works__slider__dots__num").removeClass("no-transition");
+                    setActiveDot(currentSlide);
+                }, 0);
+            } else if (currentSlide === slick.$slides.length - 1) {
+                setTimeout(function () {
+                    $(".section-works__slider__dots__num").removeClass("no-transition");
+                }, 0);
+            }
+        });
+    
+        setActiveDot(0);
+    });
+
+        //Totoni-slide
+        $(function () {
+      $('.plan-slide__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 2,
+        autoplay: true,
+        speed: 15000,
+        autoplaySpeed: 0,
+        arrow: false,
+        cssEase: 'linear',
+        infinite: true,
+        swipe: false,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        variableWidth: true,
+      });
+    })
+
+</script>
+</html>
